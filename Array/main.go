@@ -21,6 +21,10 @@ func main() {
 	// fmt.Println(FindDuplicate(lists))
 
 	//ZeroSumTriplet
-	list3 := []int{1, 2, -4, 6, 3}
-	fmt.Println(ZeroSumTriplets(list3))
+	// list3 := []int{1, 2, -4, 6, 3}
+	// fmt.Println(ZeroSumTriplets(list3))
+
+	//ProductOfOtherElements
+	list := []int{1, 2, 3, 4}
+	fmt.Println(ProductOfAllOtherElements(list))
 }
