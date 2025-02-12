@@ -15,4 +15,8 @@ func main() {
 	num1 := []int{2, 9}
 	num2 := []int{9, 9, 9}
 	fmt.Println(AddTwoNumbers(num1, num2))
+
+	//duplicate number
+	lists := []int{3, 2, 1, 4, 5, 4}
+	fmt.Println(FindDuplicate(lists))
 }
