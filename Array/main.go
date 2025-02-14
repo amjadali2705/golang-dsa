@@ -33,6 +33,10 @@ func main() {
 	// fmt.Println(BubbleSort(input))
 
 	//InsertionSort
-	input := []int{2, 3, 1}
-	fmt.Println(InsertionSort(input))
+	// input := []int{2, 3, 1}
+	// fmt.Println(InsertionSort(input))
+
+	//EqualSumSubArrays
+	list := []int{1, 7, 3, 5}
+	fmt.Println(EqualSubArrays(list))
 }
