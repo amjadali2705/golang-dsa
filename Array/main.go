@@ -37,6 +37,11 @@ func main() {
 	// fmt.Println(InsertionSort(input))
 
 	//EqualSumSubArrays
-	list := []int{1, 7, 3, 5}
-	fmt.Println(EqualSubArrays(list))
+	// list := []int{1, 7, 3, 5}
+	// fmt.Println(EqualSubArrays(list))
+
+	//RotateKSteps
+	list := []int{1, 2, 3}
+	k := 3
+	fmt.Println(RotateKSteps(list, k))
 }
