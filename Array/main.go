@@ -29,6 +29,10 @@ func main() {
 	// fmt.Println(ProductOfAllOtherElements(list))
 
 	//Bubble Sort
+	// input := []int{2, 3, 1}
+	// fmt.Println(BubbleSort(input))
+
+	//InsertionSort
 	input := []int{2, 3, 1}
-	fmt.Println(BubbleSort(input))
+	fmt.Println(InsertionSort(input))
 }
