@@ -25,6 +25,10 @@ func main() {
 	// fmt.Println(ZeroSumTriplets(list3))
 
 	//ProductOfOtherElements
-	list := []int{1, 2, 3, 4}
-	fmt.Println(ProductOfAllOtherElements(list))
+	// list := []int{1, 2, 3, 4}
+	// fmt.Println(ProductOfAllOtherElements(list))
+
+	//Bubble Sort
+	input := []int{2, 3, 1}
+	fmt.Println(BubbleSort(input))
 }
