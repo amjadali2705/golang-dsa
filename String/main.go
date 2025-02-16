@@ -9,6 +9,10 @@ func main() {
 	// fmt.Println(LongestDictionaryWordContainingKey(key, dic))
 
 	//LookAndTell
-	depth := 4
-	fmt.Println(LookAndTell(depth))
+	// depth := 4
+	// fmt.Println(LookAndTell(depth))
+
+	//ReverseVowels
+	str := "coat"
+	fmt.Println(ReverseVowels(str))
 }
