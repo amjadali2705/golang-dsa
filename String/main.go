@@ -13,6 +13,10 @@ func main() {
 	// fmt.Println(LookAndTell(depth))
 
 	//ReverseVowels
-	str := "coat"
-	fmt.Println(ReverseVowels(str))
+	// str := "coat"
+	// fmt.Println(ReverseVowels(str))
+
+	//LongestSubstring
+	input := "abcc"
+	fmt.Println(LongestSubstringOfTwoChars(input))
 }
