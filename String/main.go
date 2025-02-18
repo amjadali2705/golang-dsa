@@ -17,6 +17,10 @@ func main() {
 	// fmt.Println(ReverseVowels(str))
 
 	//LongestSubstring
-	input := "abcc"
-	fmt.Println(LongestSubstringOfTwoChars(input))
+	// input := "abcc"
+	// fmt.Println(LongestSubstringOfTwoChars(input))
+
+	//IntToRoman
+	input := 1917
+	fmt.Println(IntToRoman(input))
 }
