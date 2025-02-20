@@ -21,6 +21,10 @@ func main() {
 	// fmt.Println(LongestSubstringOfTwoChars(input))
 
 	//IntToRoman
-	input := 1917
-	fmt.Println(IntToRoman(input))
+	// input := 1917
+	// fmt.Println(IntToRoman(input))
+
+	//NumInEnglish
+	num := 39
+	fmt.Println(NumberInEnglish(num))
 }
