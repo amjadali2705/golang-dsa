@@ -11,4 +11,7 @@ func main() {
 	node2.Next = node3
 
 	fmt.Println(Serialize(node1))
+
+	//reverse linked list
+	fmt.Println(Serialize(ReverseLinkedList(node1)))
 }
