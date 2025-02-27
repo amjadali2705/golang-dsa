@@ -19,4 +19,8 @@ func main() {
 	l1 := &Node{Val: 1, Next: &Node{Val: 4, Next: &Node{Val: 6}}}
 	l2 := &Node{Val: 2, Next: &Node{Val: 3, Next: &Node{Val: 5, Next: &Node{Val: 7}}}}
 	fmt.Println(Serialize(JoinTwoSortedLinkedLists(l1, l2)))
+
+	//keep repetitions
+	head := &Node{Val: 1, Next: &Node{Val: 1, Next: &Node{Val: 4, Next: &Node{Val: 4, Next: &Node{Val: 6, Next: &Node{Val: 6, Next: &Node{Val: 7}}}}}}}
+	fmt.Println(Serialize(KeepRepetitions(head)))
 }
