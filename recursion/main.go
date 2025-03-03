@@ -10,4 +10,7 @@ func main() {
 	//check palindrome
 	s := "aba"
 	fmt.Println(IsPalindrome(s))
+
+	//exponentiation
+	fmt.Println(PowerOf(5, 4))
 }
