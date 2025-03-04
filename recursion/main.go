@@ -13,4 +13,7 @@ func main() {
 
 	//exponentiation
 	fmt.Println(PowerOf(5, 4))
+
+	//multiplication
+	fmt.Println(Multiply(-3, -3))
 }
