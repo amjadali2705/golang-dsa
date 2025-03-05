@@ -16,4 +16,7 @@ func main() {
 
 	//multiplication
 	fmt.Println(Multiply(-3, -3))
+
+	//expression operators
+	fmt.Println(ExpressionOperators([]int{1, 2, 3, 4, 5, 6}, 5))
 }
