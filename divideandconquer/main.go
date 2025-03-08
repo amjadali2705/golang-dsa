@@ -8,4 +8,7 @@ func main() {
 
 	//square root
 	fmt.Println(SquareRoot(5, 3))
+
+	//merge sort
+	fmt.Println(MergeSort([]int{-1, 3, 2, 0, 4}))
 }
